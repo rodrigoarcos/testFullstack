@@ -13,13 +13,13 @@
   <body>
     <main>
       <title>My document</title>
-      <header>This is my first exercise with HTML and CSS</header>
+      <header><h1>This is my first exercise with HTML and CSS</h1></header>
       <nav>
         <a href="https://google.com">Google</a>
         <a href="https://developer.mozilla.org/es/">Mozilla</a>
       </nav>
       <section>
-        <p><strong>test</strong></p>
+        <h2>Test</h2>
       </section>
       <article>
         <section>
@@ -58,22 +58,43 @@ int main(int argc, char *argv[] {
             <figcaption>A very beautiful cat, isn't it?</figcaption>
           </figure>
           <label>
-            <input type="checkbox" id="cbox1" value="first_checkbox" /> This
-            cat is very nice
+            <input type="checkbox" id="cbox1" value="first_checkbox" /> This cat
+            is very nice
           </label>
           <br />
           <label>
             <input type="checkbox" id="cbox2" value="second_checkbox" /> This
             cat is not that nice
           </label>
-          <br>
-          <label>
-            Name the cat: <input type="text" id="catName" placeholder="Type the name of this cat">
-          </label>
+          <br />
           <p>
-            <input type="submit" value="Submit name">
+            <label>
+              Name the cat:
+              <input
+                class="textinput"
+                type="text"
+                id="catName"
+                placeholder="Catto"
+              />
+            </label>
+          </p>
+          <p>
+            <input class="button" type="submit" value="Submit name" />
           </p>
         </section>
+      </article>
+      <article>
+        <h2>Now I want to test some ordered and unordered lists</h2>
+        <p>The following list show the most important things in this universe:</p>
+        <ol>
+          <li>Cats</li>
+          <li>Cats another time</li>
+          <li><a href="https://toolband.com/">Tool</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Neon_Genesis_Evangelion">Neon Genesis Evangelion</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Berserk_(manga)">Berserk</a></li>
+          <li>Mystic Gohan</li>
+          <li><a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood">Fullmetal Alchemist: Brotherhood</a></li>
+        </ol>
       </article>
       <aside>
         <p>Hey, this is cool</p>
