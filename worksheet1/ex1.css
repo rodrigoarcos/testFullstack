@@ -34,3 +34,7 @@ footer p {
 pre {
   padding-left: 3rem;
 }
+
+article section p strong {
+  color: red;
+}
