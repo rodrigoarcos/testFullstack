@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    max-width: 45em;
+}
+
+main {
+    margin: auto;
+}
+article h2 {
+    text-decoration: underline;
+}
+
+blockquote {
+    border: 1px solid black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+mark {
+    background-color: limegreen;
+}
