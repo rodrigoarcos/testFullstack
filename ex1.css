@@ -1,0 +1,36 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav {
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
+}
+
+p,
+header,
+footer {
+  text-align: justify;
+}
+
+footer p {
+  color: #ccc;
+  font-weight: 100;
+  margin: 0 0 0 0;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+pre {
+  padding-left: 3rem;
+}
